@@ -1,0 +1,77 @@
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+header {
+    position: relative;
+}
+
+.botao-cadastro {
+    position: absolute;
+    top: 0;
+    right:0 ;
+    left: 2;
+    margin: 10px;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.produto {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.produto h2 {
+    margin-top: 10px;
+    color: #333;
+}
+
+.produto p {
+    color: #555;
+}
+
+.produto .preco {
+    font-weight: bold;
+    color: #d9534f; /* Vermelho escuro para o preço */
+}
+
+button {
+    background-color: #5bc0de; /* Azul claro para o botão */
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #46b8da; /* Azul um pouco mais escuro ao passar o mouse */
+}
+
